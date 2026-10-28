@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: aqua;
+            height: 250px;
+            width: 250px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .circle{
+            background-color: blue;
+            height: 200px;
+            width: 200px; 
+            border-radius: 50%;
+            transition: all 2s;
+             /* //2, 9, 20, 25 */
+        }
+        .circle:hover{
+            cursor: pointer;
+            transform: rotate(360deg);
+        }
+        .circle h4{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="circle">
+            <h4>Rotate</h4>
+        </div>
+    </div>
+</body>
+</html>
