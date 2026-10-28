@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .container{
+        background-color:aqua;
+        height: 50vh;
+        width: 40vw;
+        display: flex;
+        flex-direction: column;
+        gap: 55px;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    .tube{
+        background-color: blanchedalmond;
+        height: 4vh;
+        width: 30vw;
+        border-radius: 20px;
+    }
+    .liquid{
+        background-color: lightblue;
+        height: 4vh;
+        width: 7%;
+        border-radius: 20px;
+    }
+    .one{
+        animation: filledOne 1s linear 1s forwards;
+    }
+    @keyframes filledOne {
+        0%{
+            background-color: blue;
+            width: 7%;
+        }
+        50%{
+            background-color: rgb(60, 60, 224);
+            width: 35%;
+        }
+        100%{
+            background-color: rgb(11, 11, 225);
+            width: 63%;
+        } 
+    }
+    .two{
+        animation: filledTwo 1s linear 1s forwards;
+    }
+    @keyframes filledTwo {
+        0%{
+            background-color: blue;
+            width: 7%;
+        }
+        50%{
+            background-color: rgb(40, 40, 232);
+            width: 24%;
+        }
+        100%{
+            background-color: rgb(69, 69, 212);
+            width: 47%;
+        } 
+    }
+    .three{
+        animation: filledThree 1s linear 1s forwards;
+    }
+    @keyframes filledThree {
+        0%{
+            background-color: blue;
+            width: 7%;
+        }
+        50%{
+            background-color: rgb(40, 40, 232);
+            width: 45%;
+        }
+        100%{
+            background-color: rgb(69, 69, 212);
+            width: 91%;
+        } 
+    }
+    .four{
+        animation: filledFour 1s linear 1s forwards;
+    }
+    @keyframes filledFour {
+        0%{
+            background-color: blue;
+            width: 7%;
+        }
+        50%{
+            background-color: rgb(40, 40, 232);
+            width: 15%;
+        }
+        100%{
+            background-color: rgb(69, 69, 212);
+            width: 32%;
+        } 
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="tube">
+            <div class="liquid one">
+
+            </div>
+        </div>
+        <div class="tube">
+            <div class="liquid two">
+
+            </div>
+        </div>
+        <div class="tube">
+            <div class="liquid three">
+
+            </div>
+        </div>
+        <div class="tube">
+            <div class="liquid four">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
