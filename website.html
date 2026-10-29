@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            /* background-color: burlywood; */
+            width: 100vw;
+            height: 130vh;
+            display: flex;
+            justify-content: center;
+        }
+        .first{
+            /* background-color: aqua; */
+            width: 85vw;
+            height: 130vh;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4Tht_ihR2UkOJiAPJiJWuaUTuMxXf3IPkP4FYkT6Ncw&s=10);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .nav{
+            background-color: rgb(1, 1, 50);
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            gap: 200px;
+        }
+        .logoImg{
+            width: 25%;
+            height: 80%;
+        }
+        li{
+            list-style-type: none;
+            color: white;
+            font-size: 17px;
+        }
+        .logo{
+            /* background-color: brown; */
+            display: flex;
+            width: 20%;
+        }
+        .logo h2{
+            color: #fea116;
+        }
+        .menu{
+            /* background-color: blueviolet; */
+            display: flex;
+            width: 50%;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .menuButton{
+            background-color: #fea116;
+            color: white;
+            width: 170px;
+            height: 40px;
+            border-style: none;
+            font-size: 16px;
+            font-weight:500;
+        }
+        .second{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            /* background-color: burlywood; */
+            height: 90vh;
+        }
+        .mealImg{
+            height: 100%;
+            width: 60%;
+            animation: rotate 30s linear 1s infinite;
+        }
+        .info{
+            margin-left: 20px;
+        }
+        .info h1{
+            font-size: xx-large;
+            color: white;
+        }
+        .info p{
+            font-size: 16px;
+            color: white;
+        }
+        #menuButton2{
+            width: 200px;
+            height: 60px;
+            padding: 10px;
+        }
+        @keyframes rotate {
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="first">
+            <div class="nav">
+                <div class="logo">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI317oMcdJU7iDeLQ61O1uS6zciTczShjSb0E5f7yUYA&s=10"
+                        class="logoImg">
+                    <h2>Restoran</h2>
+                </div>
+                <div class="menu">
+                    <li>HOME</li>
+                    <li>ABOUT</li>
+                    <li>SERVICE</li>
+                    <li>MENU</li>
+                    <li>PAGES</li>
+                    <li>CONTACT</li>
+                    <button class="menuButton">BOOK A TABLE</button>
+                </div>
+            </div>
+            <div class="second">
+            <div class="info">
+                <h1>Enjoy Our Delicious Meal</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod maiores nisi illo? Sequi neque cum repudiandae tempore pariatur reprehenderit, reiciendis ad consequatur, laboriosam minus.
+                </p>
+                <button class="menuButton" id="menuButton2">BOOK A TABLE</button>
+            </div>
+                <img src="https://png.pngtree.com/png-clipart/20240801/original/pngtree-bbq-top-view-grilling-cooking-meat-isolated-on-the-white-background-png-image_15680603.png" class="mealImg">
+        </div>
+        </div>
+    </div>
+</body>
+</html>
