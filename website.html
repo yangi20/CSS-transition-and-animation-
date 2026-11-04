@@ -1,106 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        *{
-            margin: 0px;
-        }
-        .container{
-            /* background-color: burlywood; */
-            width: 100vw;
-            height: 130vh;
-            display: flex;
-            justify-content: center;
-        }
-        .first{
-            /* background-color: aqua; */
-            width: 85vw;
-            height: 130vh;
-            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4Tht_ihR2UkOJiAPJiJWuaUTuMxXf3IPkP4FYkT6Ncw&s=10);
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        .nav{
-            background-color: rgb(1, 1, 50);
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            gap: 200px;
-        }
-        .logoImg{
-            width: 25%;
-            height: 80%;
-        }
-        li{
-            list-style-type: none;
-            color: white;
-            font-size: 17px;
-        }
-        .logo{
-            /* background-color: brown; */
-            display: flex;
-            width: 20%;
-        }
-        .logo h2{
-            color: #fea116;
-        }
-        .menu{
-            /* background-color: blueviolet; */
-            display: flex;
-            width: 50%;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .menuButton{
-            background-color: #fea116;
-            color: white;
-            width: 170px;
-            height: 40px;
-            border-style: none;
-            font-size: 16px;
-            font-weight:500;
-        }
-        .second{
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            /* background-color: burlywood; */
-            height: 90vh;
-        }
-        .mealImg{
-            height: 100%;
-            width: 60%;
-            animation: rotate 30s linear 1s infinite;
-        }
-        .info{
-            margin-left: 20px;
-        }
-        .info h1{
-            font-size: xx-large;
-            color: white;
-        }
-        .info p{
-            font-size: 16px;
-            color: white;
-        }
-        #menuButton2{
-            width: 200px;
-            height: 60px;
-            padding: 10px;
-        }
-        @keyframes rotate {
-            from{
-                transform: rotate(0deg);
-            }
-            to{
-                transform: rotate(360deg);
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="website.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
+
 <body>
     <div class="container">
         <div class="first">
@@ -108,7 +16,7 @@
                 <div class="logo">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI317oMcdJU7iDeLQ61O1uS6zciTczShjSb0E5f7yUYA&s=10"
                         class="logoImg">
-                    <h2>Restoran</h2>
+                    <h1>Restoran</h1>
                 </div>
                 <div class="menu">
                     <li>HOME</li>
@@ -120,16 +28,377 @@
                     <button class="menuButton">BOOK A TABLE</button>
                 </div>
             </div>
-            <div class="second">
-            <div class="info">
-                <h1>Enjoy Our Delicious Meal</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod maiores nisi illo? Sequi neque cum repudiandae tempore pariatur reprehenderit, reiciendis ad consequatur, laboriosam minus.
-                </p>
-                <button class="menuButton" id="menuButton2">BOOK A TABLE</button>
+            <div class="firstOne">
+                <div class="info">
+                    <h1>
+                        <pre>Enjoy Our</pre>
+                        <pre>Delicious Meal</pre>
+                    </h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod maiores nisi illo? Sequi neque cum
+                        repudiandae
+                        tempore pariatur reprehenderit, reiciendis ad consequatur, laboriosam minus.
+                    </p>
+                    <button class="menuButton" id="menuButton2">BOOK A TABLE</button>
+                </div>
+                <img src="https://png.pngtree.com/png-clipart/20240801/original/pngtree-bbq-top-view-grilling-cooking-meat-isolated-on-the-white-background-png-image_15680603.png"
+                    class="mealImg">
             </div>
-                <img src="https://png.pngtree.com/png-clipart/20240801/original/pngtree-bbq-top-view-grilling-cooking-meat-isolated-on-the-white-background-png-image_15680603.png" class="mealImg">
+        </div>
+        <div class="second">
+            <div class="card">
+                <img src="https://thumbs.dreamstime.com/b/cafe-restaurant-vector-logo-diner-cook-chef-icon-70322723.jpg"
+                    id="card1Img">
+                <h3>Master Chefs</h3>
+                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+            </div>
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjg1KhxsvXqZj6HBd0oIVDaDdbid9ULcLUBEO9ZkFxOQ&s=10"
+                    id="card2Img">
+                <h3>Quality Food</h3>
+                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+            </div>
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3zhu7DZ2Vz9MLfMs43omMSITxoJdXG7HLmXZVv5QoPA&s=10"
+                    id="card3Img">
+                <h3>Online Order</h3>
+                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+            </div>
+            <div class="card">
+                <img src="https://thumbs.dreamstime.com/b/restaurant-call-center-icon-customer-support-icon-restaurant-call-center-icon-customer-support-icon-414219893.jpg"
+                    id="card4Img">
+                <h3>24/7 Service</h3>
+                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+            </div>
+        </div>
+        <div class="third">
+            <div class="thirdImg">
+                <div class="thirdOne">
+                    <div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmi2Q5x0eyBVd70sGaGwFFxGrApvOweUt0HxA0w3spUQ&s=10"
+                            id="thirdImg1">
+                    </div>
+                    <div>
+                        <img src="https://cache.marriott.com/content/dam/marriott-renditions/STVMC/stvmc-table-6856-sq.jpg?downsize=567:*"
+                            id="thirdImg2">
+                    </div>
+                </div>
+                <div class="thirdTwo">
+                    <div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbtwqtIj6PSTHutBOIxei6ChNZFQBiDOxn6urn-NByoQ&s=10"
+                            id="thirdImg3">
+                    </div>
+                    <div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs9NniC9tS7uDOmcLc91tEsTyL5QLrOjoxu0MlPerBdQ&s=10"
+                            id="thirdImg4">
+                    </div>
+                </div>
+            </div>
+            <div class="thirdInfo">
+                <h3>About Us</h3>
+                <h1>Welcome to Restoran</h1><br><br>
+                <pre>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam</pre>
+                <pre>amet diam et eos erat ipsum et lorem et sit, sed stet lorem sit.</pre><br><br>
+                <pre>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam</pre>
+                <pre>amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita</pre>
+                <pre>duo justo magna dolore erat amet</pre><br>
+                <div class="years">
+                    <div class="yearOne">
+                        <h1>15</h3>
+                            <div class="experience">
+                                <p>Years of</p>
+                                <h3>Experience</h3>
+                            </div>
+                    </div>
+                    <div class="yearTwo">
+                        <h1>50</h3>
+                            <div class="experience">
+                                <p>Popular</p>
+                                <h3>Master Chefs</h3>
+                            </div>
+                    </div>
+                </div><br>
+                <button class="menuButton" id="thirdButton">READ MORE</button>
+            </div>
+        </div>
+        <div class="fourth">
+            <h3>Food Menu</h3>
+            <h1>Most Popular Items</h1>
+            <div class="threeItems">
+                <div class="firstItem">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwB6guthpAMv4XrNFiV54S9aCKXcId0TRObRs-8xH3eQ&s=10"
+                        class="items">
+                    <h3>
+                        <pre>Popular</pre>
+                        <pre>Breakfast</pre>
+                    </h3>
+                </div>
+                <div class="secondItem">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRndCc2ZDLCxS0faGf_PRuqPCqfvdDy2EkXP2_gPWB8Yg&s=10"
+                        class="items">
+                    <h3>
+                        <pre>Special</pre>
+                        <pre>Launch</pre>
+                    </h3>
+                </div>
+                <div class="thirdItem">
+                    <img src="https://thumbs.dreamstime.com/b/knife-spoon-fork-abstract-logo-vector-graphic-food-icon-symbol-cooking-business-cafe-restaurant-knife-spoon-fork-156625379.jpg"
+                        class="items">
+                    <h3>
+                        <pre>Lovely</pre>
+                        <pre>Dinner</pre>
+                    </h3>
+                </div>
+            </div>
+            <div class="menus">
+                <div class="menuOne">
+                    <div class="menu1 menuInfo">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0sV7NPvBS7jkwX8zgxwpCAHJsqPhubIdKC3vCCsMZLg&s=10"
+                            class="menuImg">
+                        <div class="menuDetails">
+                            <div class="menuPrice">
+                                <h3>Chicken Burger</h3>
+                                <h3>$115</h3>
+                            </div>
+                            <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+                        </div>
+                    </div>
+                    <div class="menu2 menuInfo">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0sV7NPvBS7jkwX8zgxwpCAHJsqPhubIdKC3vCCsMZLg&s=10"
+                            class="menuImg">
+                        <div class="menuDetails">
+                            <div class="menuPrice">
+                                <h3>Chicken Burger</h3>
+                                <h3>$115</h3>
+                            </div>
+                            <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+                        </div>
+                    </div>
+                    <div class="menu3 menuInfo">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0sV7NPvBS7jkwX8zgxwpCAHJsqPhubIdKC3vCCsMZLg&s=10"
+                            class="menuImg">
+                        <div class="menuDetails">
+                            <div class="menuPrice">
+                                <h3>Chicken Burger</h3>
+                                <h3>$115</h3>
+                            </div>
+                            <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+                        </div>
+                    </div>
+                    <div class="menu4 menuInfo">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0sV7NPvBS7jkwX8zgxwpCAHJsqPhubIdKC3vCCsMZLg&s=10"
+                            class="menuImg">
+                        <div class="menuDetails">
+                            <div class="menuPrice">
+                                <h3>Chicken Burger</h3>
+                                <h3>$115</h3>
+                            </div>
+                            <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="menuTwo">
+                    <div class="menu1 menuInfo">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0sV7NPvBS7jkwX8zgxwpCAHJsqPhubIdKC3vCCsMZLg&s=10"
+                            class="menuImg">
+                        <div class="menuDetails">
+                            <div class="menuPrice">
+                                <h3>Chicken Burger</h3>
+                                <h3>$115</h3>
+                            </div>
+                            <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+                        </div>
+                    </div>
+                    <div class="menu2 menuInfo">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0sV7NPvBS7jkwX8zgxwpCAHJsqPhubIdKC3vCCsMZLg&s=10"
+                            class="menuImg">
+                        <div class="menuDetails">
+                            <div class="menuPrice">
+                                <h3>Chicken Burger</h3>
+                                <h3>$115</h3>
+                            </div>
+                            <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+                        </div>
+                    </div>
+                    <div class="menu3 menuInfo">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0sV7NPvBS7jkwX8zgxwpCAHJsqPhubIdKC3vCCsMZLg&s=10"
+                            class="menuImg">
+                        <div class="menuDetails">
+                            <div class="menuPrice">
+                                <h3>Chicken Burger</h3>
+                                <h3>$115</h3>
+                            </div>
+                            <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+                        </div>
+                    </div>
+                    <div class="menu4 menuInfo">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0sV7NPvBS7jkwX8zgxwpCAHJsqPhubIdKC3vCCsMZLg&s=10"
+                            class="menuImg">
+                        <div class="menuDetails">
+                            <div class="menuPrice">
+                                <h3>Chicken Burger</h3>
+                                <h3>$115</h3>
+                            </div>
+                            <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fifth">
+            <div class="booking">
+                <div class="bookingOne">
+                    <img src="https://www.avg.com/hs-fs/hubfs/Blog_Content/Avg/Signal/AVG%20Signal%20Images/is_bookingcom_legit_signal/signal-is-booking-com-legit-hero.jpg?width=1200&name=signal-is-booking-com-legit-hero.jpg"
+                    class="bookingImg">
+                </div>
+                <div class="bookingTwo">
+                    <h4>Reservation</h4>
+                    <h1>Book A Table Online</h1>
+                    <table>
+                        <tr>
+                            <td><input type="text" placeholder="Your Name"></td>
+                            <td><input type="text" placeholder="Your Email"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" placeholder="Date & Time"></td>
+                            <td><input type="text" placeholder="No of People"></td>
+                        </tr>
+                    </table>
+                        <textarea placeholder="Special Request" id="textarea"></textarea>
+                        <button id="bookingButton">BOOK NOW</button>
+                </div>
+            </div>
+        </div>
+        <div class="sixth">
+            <h3>Team Members</h3>
+            <h1>Our Master Chefs</h1>
+            <div class="members">
+                <div class="member">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWFRLwQfLj6Wt8wkUFGxnGujizLAn0fYHRcLZ0ly9g3g&s=10"
+                    class="memberImg">
+                    <h3>Full Name</h3>
+                    <p>Designation</p>
+                </div>
+                <div class="member">
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/050/569/330/small_2x/male-chef-in-white-uniform-holding-an-empty-plate-on-a-transparent-background-png.png"
+                    class="memberImg" id="memberTwo">
+                    <h3>Full Name</h3>
+                    <p>Designation</p>
+                </div>
+                <div class="member">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRndkOp2xNWF4P5Tf5GaLx_0L_vZanJVsMLOlKD1Dn0qQ&s=10"
+                    class="memberImg" id="memberThree">
+                    <h3>Full Name</h3>
+                    <p>Designation</p>
+                </div>
+                <div class="member">
+                    <img src="https://images.unsplash.com/photo-1583394293214-28ded15ee548?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+                    class="memberImg">
+                    <h3>Full Name</h3>
+                    <p>Designation</p>
+                </div>
+            </div>
+        </div>
+        <div class="seventh">
+            <h3>Testimonial</h3>
+            <h1>Our Client Say!!!</h1>
+            <div class="clients">
+                <div class="client">
+                    <img src="https://t3.ftcdn.net/jpg/09/13/85/78/360_F_913857888_ClEoS4CumkYMuzDqnIE3al1Gt7VAeDyR.jpg"
+                    class="coma">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit illum culpa obcaecati</p>
+                    <div class="clientInfo">
+                        <div class="clientProfile">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6lIcYuiAkZcq3L7b93g1EH1xlhMQvkBzOD8s3eHnI9g&s=10"
+                            class="clientImg">
+                            <div class="clientDetails">
+                                <h3>Client Name</h3>
+                                <p>Profession</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="client" id="clientTwo">
+                    <img src="https://t3.ftcdn.net/jpg/09/13/85/78/360_F_913857888_ClEoS4CumkYMuzDqnIE3al1Gt7VAeDyR.jpg"
+                    class="coma">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit illum culpa obcaecati</p>
+                    <div class="clientInfo">
+                        <div class="clientProfile">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6lIcYuiAkZcq3L7b93g1EH1xlhMQvkBzOD8s3eHnI9g&s=10"
+                            class="clientImg">
+                            <div class="clientDetails">
+                                <h3>Client Name</h3>
+                                <p>Profession</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="client">
+                    <img src="https://t3.ftcdn.net/jpg/09/13/85/78/360_F_913857888_ClEoS4CumkYMuzDqnIE3al1Gt7VAeDyR.jpg"
+                    class="coma">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit illum culpa obcaecati</p>
+                    <div class="clientInfo">
+                        <div class="clientProfile">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6lIcYuiAkZcq3L7b93g1EH1xlhMQvkBzOD8s3eHnI9g&s=10"
+                            class="clientImg">
+                            <div class="clientDetails">
+                                <h3>Client Name</h3>
+                                <p>Profession</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="loadings">
+            <div class="loading"></div>
+            <div class="loading loadingTwo"></div>
+            <div class="loading"></div>
+            <div class="loading"></div>
+        </div>
+        <div class="eigth">
+            <div class="aboutUs">
+                <div class="about aboutCompany">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-chevron-right"></i>About Us</li>
+                        <li><i class="fa-solid fa-chevron-right"></i>Contact Us</p>
+                        <li><i class="fa-solid fa-chevron-right"></i>Reservation</li>
+                        <li><i class="fa-solid fa-chevron-right"></i>Privacy Piolicy</li>
+                        <li><i class="fa-solid fa-chevron-right"></i>Terms & Conditions</li>
+                    </ul>
+                </div>
+                <div class="about aboutContact">
+                    <h3>Contact</h3>
+                    <p><i class="fa-solid fa-location-dot"></i>123 Street, New York, USA</p>
+                    <p><i class="fa-solid fa-phone"></i>+012 345 67890</p>
+                    <p><i class="fa-solid fa-envelope"></i>infor@example.com</p>
+                </div>
+                <div class="about">
+                    <h3>Opening</h3>
+                    <p>Monday - Saturday</p>
+                    <p>09AM - 09PM</p><br>
+                    <p>Sunday</p>
+                    <p>10AM - 08PM</p>
+                </div>
+                <div class="about">
+                    <h3>Newletter</h3>
+                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <div class="last">
+                    <input type="text" placeholder="Your email" id="lastInput">
+                    <button class="lastButton">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+            <div class="secondLast">
+                <p>Restoran, All Right Reserved. Designed By HTML Codex</p>
+                <p>Distributed by ThemeWagon</p>
+            </div>
         </div>
         </div>
     </div>
+
+    
 </body>
+
 </html>
