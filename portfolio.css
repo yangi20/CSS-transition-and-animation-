@@ -1,0 +1,112 @@
+.nav{
+        background-color: rgb(160, 50, 50);
+        height: 8%;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        z-index: 10000;
+        align-items: center;
+       margin-top: -10px;
+    }
+    .nav ul{
+        display: flex; 
+        justify-content: space-evenly;
+        align-items: center;
+        width: 60vw;
+         margin-top: 15px;
+    }
+    .nav ul li{
+        list-style-type: none;
+    }
+    .logo{
+        display: flex;
+        width: 40vw;
+        margin-left: 5vw;
+        align-items: center;
+        margin-top: 5px;
+    }
+    .logo h3{
+        margin-top: 15px;
+    }
+    #logoImg{
+        width: 50px;
+        border-radius: 50%;
+        background-color: rgb(64, 0, 255);
+    }
+    .home{
+        /* background-color: aqua; */
+        width: 100vw;
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .home_container{
+        background-color: rgb(239, 237, 237);
+        width: 70vw;
+        height: 70vh;
+        border-radius: 20px;
+        padding: 10px;
+        margin-top: 40px;
+        /* box-shadow: 2px 2px 2px 10px inset rgb(239, 238, 238); */
+    }
+    .intro{
+        width: 60%;
+        height: 100%;
+        margin-top: 10%;
+    }
+    .intro h1{
+        margin-bottom: -20px;
+        font-size: 50px;
+    }
+    .homeTop{
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .message{
+        background-color: rgb(74, 74, 241);
+        color: white;
+        border-style: none;
+        width: 150px;
+        height: 40px;
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    li button{
+        background-color: rgb(74, 74, 241);
+        color: white;
+        border-style: none;
+        width: 75px;
+        height: 35px;
+        border-radius: 5px;
+    }
+    .about{
+        /* background-color: aqua; */
+        width: 100vw;
+        height: 40vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .aboutMe{
+        background-color: rgb(239, 237, 237);
+        width: 70vw;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px 10px;
+        border-radius: 20px;
+    }
+    .aboutMe h1{
+        font-size: 40px;
+        margin-bottom: 0px;
+    }
+    #aboutTop{
+        margin-top: 10px;
+    }
+
+    
