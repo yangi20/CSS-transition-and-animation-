@@ -15,45 +15,132 @@
                 id="logoImg">
             <h3>Phur Yangi</h3>
         </div>
+        <input type="checkbox" id="menu">
+        <label for="menu" class="menu">☰</label>
         <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Skills</li>
-            <li>Experience</li>
-            <li><button>Contact</button></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact" class="contact_link">Contact</a></li>
         </ul>
     </div>
-    <div class="home">
+    <div class="home" id="home">
         <div class="home_container">
             <div class="intro">
                 <h1>Hello, I'm</h1>
                 <h1>Phuryangi Sherpa</h1>
                 <h2 class="homeTop">
-                    <pre>I'm a BCA student of 2nd year studying different programming 
+                    <p>I'm a BCA student of 2nd year studying different programming 
 languages and logic as well as passionate on building websites 
 and love working on real world to solve and deal with the
-problems and creating something on my own.</pre>
-                    </h3>
+problems and creating something on my own.</p>
+                    </h2>
                     <button class="message">
                         <h3>Learn More</h3>
                     </button>
             </div>
         </div>
     </div>
-    <div class="about">
+    <div class="about" id="about">
         <div class="aboutMe">
             <h1>ABOUT ME</h1>
-            <h2 id="aboutTop"><pre>Talking about myself, I enjoy and love coding. I am very passionate and
+            <h2 id="aboutTop">
+                <p>Talking about myself, I enjoy and love coding. I am very passionate and
 interested in building websites. I am open to learning new things and
 I keep myself updated. I have done 3 months of training as well as
 internship on HTML, CSS and CMS. I have intermediate knowledge on
 HTML, CSS and basic knowledge on JS and PHP. Even though, I have made
-more projects on designing but I am eager to learn backend and excited
+more projects on designing but I am more eager to learn backend and excited
 about it. I have currently joined mern stack course from renowned
-institution called Mindrisers to upgrade my skills in IT.</pre></h3>
+institution called Mindrisers to upgrade my skills in IT.</p></h2>
             <button class="message"><h3>More About Me</h3></button>
         </div>
     </div>
+    <div class="skills" id="skills">
+        <div class="skill_container">
+            <h1>Skill Set</h1>
+            <div class="html">
+                <div class="htmlImgBox">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzPgZzZgoUtKa3VoBEgoOBGx9SJJXU-WtNq0P995rfsQ&s=10"
+                        class="htmlImg">
+                </div>
+                <div class="htmlBar">
+                    <div class="htmlBarLiquid one">
+                    </div>
+                </div>
+                <div class="percent">80%</div>
+            </div>
+            <div class="css">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEa5HPCKTkTBlj4sFrO9PVBWQ4Bl5vIlZP9JDAbctgfQ&s=10"
+                class="cssImg">
+                <div class="cssBar">
+                    <div class="cssBarLiquid two"></div>
+                </div>
+                <div class="percent">70%</div>
+            </div>
+            <div class="js">
+                <img src="https://www.freepng.com/uploads/images/202512/avascript-logo-vector-png_1020x.jpg"
+                class="jsImg">
+                <div class="jsBar">
+                    <div class="jsBarLiquid three"></div>
+                </div>
+                <div class="percent">20%</div>
+            </div>
+        </div>
+    </div>
+    <div class="work" id="work">
+        <div class="work_container">
+            <h1>Work</h1>
+            <div class="work_lists">
+                <div class="work_list list_one">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDHMn6KT2QAQ37ySqVVtvglQnuiNbg8Zy36lHs3x2e9w&s=10"
+                    class="list_one_img">
+                    <h3><a href="facebook/index.html">Facebook Clone</a></h3>
+                </div>
+                <div class="work_list list_two">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScD92Kt_cv0Bh0Htd8yCpOUNTgnUGQV0VBaStkutkTMQ&s=10"
+                    class="list_two_img">
+                    <h3><a href="website.html">Restoran</a></h3>
+                </div>
+                <div class="work_list list_three">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRUOS841kCgkoPPH6t3LcrJmjuFMbIxmdTB028HYcE5g&s=10"
+                    class="list_three_img">
+                    <h3><a href="calculator.html">Calculator</a></h3>
+                </div>
+                <div class="work_list list_four">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhN6rrp1Hvc-3ieNgZwb6MlkqjR5Xq-SpCSSVisw8wxA&s=10"
+                    class="list_four_img">
+                    <h3><a href="bar.html">Progess Bar</a></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact" id="contact">
+        <div class="contact_container">
+            <h1>Contact Me</h1>
+            <div class="name">
+                <div class="firstName">
+                    <label>FirstName</label>
+                    <input type="text" placeholder="John">
+                </div>
+                <div class="lastName">
+                    <label>LastName</label>
+                    <input type="text" placeholder="Doe">
+                </div>
+            </div>
+            <div class="number">
+                <label>Phone Number</label><br>
+                <input type="number">
+            </div>
+            <div class="email">
+                <label>Email</label><br>
+                <input type="email">
+            </div>
+            <button class="contactButton"><h3>Send Message</h3></button>
+        </div>
+    </div>
+    <footer>Phuryangi. All rights reserved.</footer>
 </body>
 
 </html>
